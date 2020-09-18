@@ -17,15 +17,15 @@
   color: #95e1d3;
 }
 .elemLi::after {
-  content: '';
+  content: "";
   display: block;
   height: 6px;
   width: 0;
-  border-bottom: 3px solid #f38181;
+  border-bottom: 3px solid #95e1d3;
   transition: all 0.2s linear;
 }
 .elemLi:hover {
-  color: #f38181;
+  color: #95e1d3;
 }
 .elemLi:hover::after {
   width: 100%;

@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { ToastContainer, toast, Zoom } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import { css } from 'glamor';
-import T from 'prop-types';
-import shortid from 'shortid';
-import withLocalization from '../../hoc/withLocalization';
-import styled from './ProfBtnExtends.module.css';
+import React, { Component } from "react";
+import { ToastContainer, toast, Zoom } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { css } from "glamor";
+import T from "prop-types";
+import shortid from "shortid";
+import withLocalization from "../../hoc/withLocalization";
+import styled from "./ProfBtnExtends.module.css";
 
 const btn = [styled.btn];
 const btnMoreLoc = [styled.btnMoreLoc];
@@ -36,7 +36,7 @@ class ProfBtnExtends extends Component {
   };
 
   componentDidMount() {
-    const btnClick = localStorage.getItem('isOpen');
+    const btnClick = localStorage.getItem("isOpen");
 
     if (btnClick) {
       this.setState({ isOpen: JSON.parse(btnClick) });
@@ -46,33 +46,33 @@ class ProfBtnExtends extends Component {
   componentDidUpdate(prevProps, prevState) {
     const { isOpen } = this.state;
     if (prevState.isOpen !== isOpen) {
-      localStorage.setItem('isOpen', JSON.stringify(isOpen));
+      localStorage.setItem("isOpen", JSON.stringify(isOpen));
     }
   }
 
-  toggle = e => {
+  toggle = (e) => {
     const { abilities } = this.props.localization.localizedContent;
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       isOpen: !prevState.isOpen,
     }));
 
     if (
-      e.currentTarget.innerText === 'Развернуть' ||
-      e.currentTarget.innerText === 'Expand' ||
-      e.currentTarget.innerText === 'Розгонути'
+      e.currentTarget.innerText === "Развернуть" ||
+      e.currentTarget.innerText === "Expand" ||
+      e.currentTarget.innerText === "Розгонути"
     ) {
       toast(`${abilities.moreinfo}`, {
         position: toast.POSITION.TOP_CENTER,
         className: css({
-          background: 'rgb(172, 236, 217)',
-          color: 'rgb(117, 117, 117)',
+          background: "rgb(172, 236, 217)",
+          color: "rgb(117, 117, 117)",
         }),
         bodyClassName: css({
-          fontSize: '16px',
+          fontSize: "16px",
         }),
         progressClassName: css({
           background:
-            'repeating-radial-gradient(circle at right, #b3c066 0, #40baf3, #2378a0 100%)',
+            "repeating-radial-gradient(circle at right, #b3c066 0, #40baf3, #2378a0 100%)",
         }),
       });
     }
@@ -121,7 +121,7 @@ class ProfBtnExtends extends Component {
               <b>{moreAbout}</b>
             </p>
             <ul key={shortid.generate()} className={btnToggleText}>
-              <a href="https://craft-house.netlify.app">
+              <a href="https://c-h.site">
                 <li className={textLinkTog}>{proj0}</li>
               </a>
               <a href="https://reader-sheets-on-react.netlify.app">
@@ -150,7 +150,7 @@ class ProfBtnExtends extends Component {
               <b>{projectNames}</b>
             </p>
             <ul key={shortid.generate()} className={btnToggleText}>
-              <a href="https://integral-shop.netlify.app">
+              <a href="https://integral-bootstrap-redux.netlify.app">
                 <li className={textLinkTog}>{projWork2}</li>
               </a>
             </ul>
