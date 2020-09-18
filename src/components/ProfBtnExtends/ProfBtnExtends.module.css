@@ -1,0 +1,96 @@
+.btn {
+  border: 1px solid #1fc1ad;
+  background: #1fc1ad;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 1px;
+  padding: 6px 12px;
+  margin-right: 2px;
+  transition: all 100ms ease-in-out;
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+}
+
+.btn:hover {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  color: #1fc1ad;
+  transition: all 200ms ease-in-out;
+  outline: none;
+}
+
+.btn:focus {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  color: #1fc1ad;
+  transition: all 200ms ease-in-out;
+  outline: none;
+}
+
+.btnToggleText {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.btnMoreLoc {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-bottom: 28px;
+}
+
+.btnMoreLoc:hover {
+  display: flex;
+  justify-content: flex-end;
+  outline: none;
+}
+
+.btnMoreLoc:focus {
+  display: flex;
+  justify-content: flex-end;
+  outline: none;
+}
+
+.textLinkTog {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+  padding-top: 3px;
+  padding-left: 30px;
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+}
+
+.textLinkTog:hover {
+  color: #1fc1ad;
+}
+
+.scrumText {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .btnMoreLoc {
+    padding-top: 24px;
+    padding-right: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .btnMoreLoc {
+    padding-top: 24px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .btnMoreLoc {
+    padding-top: 24px;
+    padding-right: 15px;
+  }
+}

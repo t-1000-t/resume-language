@@ -1,0 +1,81 @@
+.listUl {
+  display: flex;
+  justify-content: flex-end;
+}
+.elemLi {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 3px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: #95e1d3;
+}
+.elemLi::after {
+  content: '';
+  display: block;
+  height: 6px;
+  width: 0;
+  border-bottom: 3px solid #f38181;
+  transition: all 0.2s linear;
+}
+.elemLi:hover {
+  color: #f38181;
+}
+.elemLi:hover::after {
+  width: 100%;
+}
+
+.tel {
+  color: #438ed4;
+}
+.tel:hover {
+  color: #84bef3;
+}
+.goog {
+  color: #db4a39;
+}
+.goog:hover {
+  color: #f59084;
+}
+.git {
+  color: #cfcfcf;
+}
+.git:hover {
+  color: #ffffff;
+}
+.code {
+  color: #dfdfdf;
+}
+.code:hover {
+  color: #ffffff;
+}
+.twit {
+  color: #23c0f4;
+}
+.twit:hover {
+  color: #94dff8;
+}
+.sky {
+  color: #148fb8;
+}
+.sky:hover {
+  color: #4ab6da;
+}
+.lin {
+  color: #0e76a8;
+}
+.lin:hover {
+  color: #6cc1e9;
+}
+.face {
+  color: #337ac1;
+}
+.face:hover {
+  color: #7db3e9;
+}

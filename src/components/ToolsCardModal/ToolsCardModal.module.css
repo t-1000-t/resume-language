@@ -1,0 +1,95 @@
+b {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: absolute;
+  background: rgb(91, 140, 168);
+  color: aliceblue;
+  padding: 30px;
+
+  font-size: 18px;
+  max-width: 80%;
+  widows: 100%;
+  min-height: 320px;
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.btn {
+  position: absolute;
+  top: 5%;
+  left: 83%;
+  border: 1px solid #1fc1ad;
+  background: #1fc1ad;
+  color: white;
+  border-radius: 1px;
+  padding: 6px 12px;
+  margin-right: 2px;
+  transition: all 100ms ease-in-out;
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #1fc1ad;
+  transition: all 200ms ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .btn {
+    top: 3%;
+    left: 73%;
+  }
+  .modal {
+    position: absolute;
+    background: rgb(91, 140, 168);
+    color: aliceblue;
+    padding: 30px;
+    font-size: 18px;
+    max-width: 90%;
+    widows: 100%;
+    min-height: 50%;
+    height: 62vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .btn {
+    top: 3%;
+    left: 83%;
+  }
+  .modal {
+    position: absolute;
+    background: rgb(91, 140, 168);
+    color: aliceblue;
+    padding: 30px;
+    font-size: 18px;
+    max-width: 90%;
+    widows: 100%;
+    min-height: 50%;
+    height: 62vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+}

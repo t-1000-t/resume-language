@@ -1,0 +1,120 @@
+.resumeHeader {
+  overflow: hidden;
+  background: #201e21;
+  background: linear-gradient(90deg, #232526 10%, #0d2022 90%);
+  padding: 48px 12px;
+}
+
+h2,
+h3,
+h4,
+a {
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+}
+h2 {
+  font-size: 48px;
+
+  top: 64px;
+}
+span {
+  font-weight: 100;
+}
+h3 {
+  top: 116px;
+  font-weight: 100;
+  font-size: 20px;
+}
+h4 {
+  left: 12px;
+  margin: 0;
+  font-size: 18px;
+}
+a {
+  font-size: 24px;
+}
+
+.relative {
+  position: relative;
+}
+
+.imgSvg {
+  margin-left: 10px;
+  max-width: 80px;
+  background: linear-gradient(0deg, #b3c066 10%, #2378a0 90%);
+  border-radius: 20px;
+}
+
+.imgShadow {
+  text-shadow: 5px 8px 6px rgba(220, 243, 137, 0.8);
+}
+
+.localIcon {
+  display: flex;
+  justify-content: flex-start;
+}
+.locSharp {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #1fc1ad;
+}
+.locSharp:hover {
+  color: aqua;
+}
+
+.iconLi:before {
+  top: 6px;
+}
+.iconLi:after {
+  bottom: 17px;
+}
+.tools {
+  padding: 20px;
+}
+.section {
+  border: 1px solid #999;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+.selectorRH {
+  display: flex;
+  justify-content: flex-end;
+  background: #201e21;
+  background: linear-gradient(90deg, #232526 10%, #0d2022 90%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  list-style: none;
+  padding: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+.buttonRH {
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 24px;
+  margin: 0 4px;
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.activeRH {
+  composes: buttonRH;
+  background-color: #2196f3;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .tools {
+    margin-top: 30px;
+    padding: 24px 5px 5px 5px;
+  }
+  .section {
+    margin-bottom: 24px;
+    padding: 10px;
+  }
+}

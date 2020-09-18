@@ -1,0 +1,107 @@
+{
+  "author": {
+    "firstname": "Vladlen",
+    "lastname": "Branetskiy",
+    "specialisation": "React.js / Node.js",
+    "city": "Ukraine, Kiev"
+  },
+  "tools": [
+    {
+      "btnClose": "Close",
+      "name": "HTML & CSS",
+      "title": "HTML - по Markup Validation Service:",
+      "str0": "- correct arrangement of tags",
+      "str1": "- the relevance of tags and the possibility of their use in this version of HTML",
+      "str2": "- correct closing and nesting of tags",
+      "str3": "- correct use of attributes and much more",
+      "title2": "CSS - Modules",
+      "str4": "- Flexbox, Inline-block",
+      "id": 1
+    },
+    {
+      "btnClose": "Close",
+      "name": "JS",
+      "title": "ES6 JS:",
+      "str0": "- Interpolation; Arrow functions; Area of visibility;",
+      "str1": "- The destructuring assignment; Spread и rest operations; the methods that iterate over an array;",
+      "str2": "- this; bind(); callback functions; Promises; Closures;",
+      "str3": "",
+      "id": 2
+    },
+    {
+      "btnClose": "Close",
+      "name": "React",
+      "title": " React:",
+      "str0": "- Browser DOM и Virtual DOM; Node.js, Webpack, Babel, React и DevTools;",
+      "str1": "- State and Lifecycle; REST; Routing; HOC; ",
+      "str2": "- Animation (Transition Group); Redux(Store, Reducers, Provider, connect, DevTools)",
+      "str3": "- Async actions in Redux with Thunk, custom middleware, Selectors; Memoization",
+      "str4": "- User authorization and authentication, Token",
+      "id": 3
+    },
+    {
+      "name": "Git",
+      "title": "Git - Основы Git",
+      "str0": "- Installation, initial setup Git",
+      "str1": "- Basic commands for placing program code on GitHub or Netlify",
+      "id": 4
+    },
+    {
+      "btnClose": "Close",
+      "name": "Gulp / SASS",
+      "title": "Collector + Architectures for flexibility of thought",
+      "str0": "- Variables",
+      "str1": "- Nesting",
+      "str2": "- Concatenation (operator &)",
+      "str3": "- Boilerplate",
+      "str4": "- Project Structure",
+      "id": 5
+    },
+    {
+      "btnClose": "Close",
+      "name": "Photoshop",
+      "title": "Ability to work with the program as a layout designer:",
+      "str0": "- Get text data",
+      "str1": "- Define element color",
+      "str2": "- Measure item size",
+      "str3": "- Get decoration data of an element",
+      "str4": "- Export Image",
+      "id": 6
+    }
+  ],
+  "notes": [
+    {
+      "firm": "School Go-IT",
+      "spicial": "Front-End / DEVELOPER",
+      "spenttime": "2019.2 - at this time",
+      "taskexecution1": "- JavaScript, React",
+      "taskexecution2": "- DOM, API, JSON",
+      "taskexecution3": "- Npm, Gulp, Webpack, Git",
+      "taskexecution4": "- HTML5/CSS, adaptive layout, positioning, forms, FlexBox, Animation CSS",
+      "taskexecution5": "- interface development, effects creation, plug-in connection, cross-browser compatibility",
+      "taskexecution6": "- Photoshop",
+      "taskexecution7": "- English: at the level of reading documentation, not yet spoken but, constant individual training and lessons with an English teacher",
+      "softSkill": "- Soft skills: ",
+      "scrum": "Scrum",
+      "moreAbout": "",
+      "nameSkills": "- List of some works:",
+      "proj0": "CRAFT HOUSE",
+      "proj1": "Finder movies",
+      "proj2": "Responsive-web",
+      "proj3": "Finder images",
+      "proj4": "Phonebook",
+      "proj5": "Budget planner",
+      "proj6": "Reader",
+      "projectNames": "- projects status 'in working':",
+      "projWork1": "Site my CV",
+      "projWork2": "Online computer shop "
+    }
+  ],
+  "abilities": {
+    "ability": "abilities:",
+    "profexperiens": "professional experience",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "moreinfo": "↓ Opened more information ↓"
+  }
+}

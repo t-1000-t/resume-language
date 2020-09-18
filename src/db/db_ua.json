@@ -1,0 +1,109 @@
+{
+  "author": {
+    "firstname": "Владлен",
+    "lastname": "Бранецький",
+    "specialisation": "React.js / Node.js",
+    "city": "Україна, Київ"
+  },
+  "tools": [
+    {
+      "btnClose": "Закрити",
+      "name": "HTML & CSS",
+      "title": "HTML - по Markup Validation Service:",
+      "str0": "- вірне написання тегів",
+      "str1": "- актуальність тегів та засоби їх застосування на данній версії HTML",
+      "str2": "- правильність закриття та вложення тегів",
+      "str3": "- правильність виеористання атрибутів та багато іншого",
+      "title2": "CSS - Modules",
+      "str4": "- Flexbox, Inline-block",
+      "id": 1
+    },
+    {
+      "btnClose": "Закрити",
+      "name": "JS",
+      "title": "ES6 JS:",
+      "str0": "- Інтерполяція; Стрелочні функції; область видимості;",
+      "str1": "- Деструктуризація; Оператори Spread и rest; Методи перебору масивів;",
+      "str2": "- this; bind(); Функція зворотнйого виклику; Проміси; Замикання;",
+      "str3": "",
+      "id": 2
+    },
+    {
+      "btnClose": "Закрити",
+      "name": "React",
+      "title": " React:",
+      "str0": "- Browser DOM и Virtual DOM; Node.js, Webpack, Babel, React и DevTools;",
+      "str1": "- Життєвий цикл; REST; Маршрутизація (routing, раутинг); HOC(Компонент вищого гатунку); ",
+      "str2": "- Анімація (Transition Group); Redux(Store, Reducers, Provider, connect, DevTools)",
+      "str3": "- Асинхронність в Redux; Middleware; Thunks; Селектори; Мемоїзація",
+      "str4": "- Авторизація та аутентифікація юзера, Token",
+      "id": 3
+    },
+    {
+      "btnClose": "Закрити",
+      "name": "Git",
+      "title": "Git - Основи Git",
+      "str0": "- Всиановлення, початкова настройка Git",
+      "str1": "- Базові команди для разміщення програмного коду на GitHub або Netlify",
+      "id": 4
+    },
+    {
+      "btnClose": "Закрити",
+      "name": "Gulp / SASS",
+      "title": "Збірник + Архітектура для гнучкого мислення",
+      "str0": "- Змінні Variables",
+      "str1": "- Вложеність селекторів (Nesting)",
+      "str2": "- Конкатенація (оператор &)",
+      "str3": "- Шаблон (Placeholder selector)",
+      "str4": "- Структурування проекту (Project Structure)",
+      "id": 5
+    },
+    {
+      "btnClose": "Закрити",
+      "name": "Photoshop",
+      "title": "Вміння працювати з программою як для вестальника:",
+      "str0": "- Отримать данні про текст",
+      "str1": "- Визначити колір елементу",
+      "str2": "- Виміряти розмір елементу",
+      "str3": "- Отримати данные элемента його оформлення",
+      "str4": "- Экспортувати зображення",
+      "id": 6
+    }
+  ],
+  "notes": [
+    {
+      "id": "001",
+      "firm": "School Go-IT",
+      "spicial": "Front-End / DEVELOPER",
+      "spenttime": "2019.2 - д.ч",
+      "taskexecution1": "- JavaScript, React",
+      "taskexecution2": "- DOM, API, JSON",
+      "taskexecution3": "- Npm, Gulp, Webpack, Git",
+      "taskexecution4": "- HTML5/CSS, адаптивне верстування, позиціонування, форми, FlexBox, Анімація CSS",
+      "taskexecution5": "- розробка интерфейсу, відтворення ефектів, підключення плагінов, кроссбраузерність",
+      "taskexecution6": "- Photoshop",
+      "taskexecution7": "- Англійська мова: на рівні читання документації, поки ще не розмовна (д/ч індивідуальне навчання з вчителем английскої)",
+      "softSkill": "- Софт скіли: ",
+      "scrum": "по Scrum",
+      "moreAbout": "",
+      "nameSkills": "- Перелік деяких робіт :",
+      "proj0": "CRAFT HOUSE",
+      "proj1": "Finder movies",
+      "proj2": "Responsive-web",
+      "proj3": "Finder images",
+      "proj4": "Phonebook",
+      "proj5": "Budget planner",
+      "proj6": "Reader",
+      "projectNames": "- Проекти у стадії розробки:",
+      "projWork1": "Сайт Резюме",
+      "projWork2": "Магазин компьютерної техніки"
+    }
+  ],
+  "abilities": {
+    "ability": "Вміння:",
+    "profexperiens": "професійний досвід",
+    "collapse": "Згорнути",
+    "expand": "Розгонути",
+    "moreinfo": "↓ Відкрито більше інформації ↓ "
+  }
+}

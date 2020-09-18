@@ -1,0 +1,48 @@
+.toolsName {
+  margin-left: 10px;
+}
+.toolsName::-moz-focus-outer,
+.toolsName::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  padding: 16px;
+  max-width: 480px;
+  widows: 100%;
+  min-height: 320px;
+  background-color: #fff;
+}
+
+.nameBtn {
+  width: 100%;
+  background-color: #444444;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #444444;
+  width: 270px;
+  height: 5.5vh;
+  cursor: pointer;
+  border: none;
+}
+.btn,
+.btn:active,
+.btn:focus {
+  outline: none;
+}

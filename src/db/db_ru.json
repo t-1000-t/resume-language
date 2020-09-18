@@ -1,0 +1,109 @@
+{
+  "author": {
+    "firstname": "Владлен",
+    "lastname": "Бранецкий",
+    "specialisation": "React.js / Node.js",
+    "city": "Украина, Киев"
+  },
+  "tools": [
+    {
+      "btnClose": "Закрыть",
+      "name": "HTML & CSS",
+      "title": "HTML - по Markup Validation Service:",
+      "str0": "- правильное написание тегов",
+      "str1": "- актуальность тегов и возможность их применения в данной версии HTML",
+      "str2": "- правильность закрытия и вложения тегов",
+      "str3": "- правильность использования атрибутов и многое другое",
+      "title2": "CSS - Modules, Material Ui, Bootstrap, Formik",
+      "str4": "- Flexbox, Inline-block",
+      "id": 1
+    },
+    {
+      "btnClose": "Закрыть",
+      "name": "JS",
+      "title": "ES6 JS:",
+      "str0": "- Интерполяция; Стрелочные функции; Область видимости;",
+      "str1": "- Деструктуризация; Операции Spread и rest; Перебирающие методы массива;",
+      "str2": "- this; bind(); Функция обратного вызова; Промисы; Замыкания;",
+      "str3": "",
+      "id": 2
+    },
+    {
+      "btnClose": "Закрыть",
+      "name": "React",
+      "title": " React:",
+      "str0": "- Browser DOM и Virtual DOM; Node.js, Webpack, React и DevTools;",
+      "str1": "- Жизненный цикл; REST; Маршрутизация (routing); HOC; ",
+      "str2": "- Redux(Store, Reducers, Action, connect, DevTools)",
+      "str3": "- Асинхронность в Redux; Middleware; Thunks; Селекторы; Мемоизация",
+      "str4": "- Авторизация и аутентификация пользователя, Token",
+      "id": 3
+    },
+    {
+      "btnClose": "Закрыть",
+      "name": "Git",
+      "title": "Git - Основы Git",
+      "str0": "- Установка, первоначальная настройка Git",
+      "str1": "- Базовые команды для размещения програмного кода на GitHub или Netlify",
+      "id": 4
+    },
+    {
+      "btnClose": "Закрыть",
+      "name": "Gulp / SASS",
+      "title": "Сборщик + Архитектуры для гибкости мысли",
+      "str0": "- Переменные Variables",
+      "str1": "- Вложеность селекторов (Nesting)",
+      "str2": "- Конкатенация (оператор &)",
+      "str3": "- Шаблон (Placeholder selector)",
+      "str4": "- Структурирование проекта (Project Structure)",
+      "id": 5
+    },
+    {
+      "btnClose": "Закрыть",
+      "name": "Photoshop",
+      "title": "Умение работать с программой как вестальщик:",
+      "str0": "- Получить данные о тексте",
+      "str1": "- Определить цвет элемента",
+      "str2": "- Измерить размер элемента",
+      "str3": "- Получить оформительные данные элемента",
+      "str4": "- Экспортировать изображение",
+      "id": 6
+    }
+  ],
+  "notes": [
+    {
+      "id": "001",
+      "firm": "School Go-IT",
+      "spicial": "Front-End / DEVELOPER",
+      "spenttime": "2019.2 - д.в",
+      "taskexecution1": "- React, JavaScript",
+      "taskexecution2": "- API, JSON, MongoDB",
+      "taskexecution3": "- Redux, npm, Webpack, Git",
+      "taskexecution4": "- HTML5/CSS, адаптивная или респонсив верстка, позиционирование, формы, FlexBox, Module CSS, Animation CSS",
+      "taskexecution5": "- разработка интерфейса, подключение плагинов, кроссбраузерность, создание эффектов",
+      "taskexecution6": "- Photoshop",
+      "taskexecution7": "- Английский язык: на уровне чтения документации, пока еще не разговорный (д/в индивидуальное обучение с преподавателем английского языка)",
+      "softSkill": "- Софт скилы: ",
+      "scrum": "по Scrum",
+      "moreAbout": "",
+      "nameSkills": "- Список некоторых работ:",
+      "proj0": "CRAFT HOUSE",
+      "proj1": "Finder movies",
+      "proj2": "Responsive-web",
+      "proj3": "Finder images",
+      "proj4": "Phonebook",
+      "proj5": "Budget planner",
+      "proj6": "Reader",
+      "projectNames": "- Рабочие проекты:",
+      "projWork1": "Сайт Резюме",
+      "projWork2": "Интернет магазин техники"
+    }
+  ],
+  "abilities": {
+    "ability": "Умения:",
+    "profexperiens": "профессиональный опыт",
+    "collapse": "Свернуть",
+    "expand": "Развернуть",
+    "moreinfo": "↓ Открылось больше информации ↓"
+  }
+}

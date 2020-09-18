@@ -1,0 +1,118 @@
+.profExperience {
+  background: #f1f1f1;
+  color: rgb(83, 83, 83);
+  border-left: 6px solid #1fc1ad;
+  padding: 6px;
+}
+
+.divB {
+  padding: 4px;
+}
+
+.divBody {
+  padding: 14px;
+}
+
+.ulBody {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.liBody {
+  list-style-type: none;
+  padding: 4px;
+}
+
+.divBody::after {
+  content: '';
+  background-color: #323837;
+  height: 1px;
+  width: 95%;
+  display: block;
+  margin: 42px auto;
+}
+
+.btnToggleText {
+  background: rgb(134, 130, 130);
+  color: #f1f1f1;
+  border-left: 6px solid #1fc1ad;
+  padding: 20px;
+}
+
+.printBox {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.printBtn {
+  background-color: #e7e7e7;
+  border: none;
+}
+
+.print_link {
+  text-decoration: none;
+  color: #95e1d3;
+}
+.print_link::after {
+  content: '';
+  display: block;
+  height: 6px;
+  width: 0;
+  border-bottom: 3px solid #f38181;
+  transition: all 0.2s linear;
+}
+.print_link:hover {
+  color: #f38181;
+}
+.print_link:hover::after {
+  width: 100%;
+}
+
+.print {
+  color: #909192;
+}
+.print:hover {
+  color: #121213;
+}
+
+.btn {
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  border: 1px solid #1fc1ad;
+  background: #1fc1ad;
+  color: white;
+  border-radius: 1px;
+  padding: 6px 12px;
+  margin-right: 2px;
+  transition: all 100ms ease-in-out;
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #1fc1ad;
+  transition: all 200ms ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+  .ulBody {
+    padding: 12px;
+  }
+
+  .printBox {
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .ulBody {
+    padding: 12px;
+  }
+
+  .printBox {
+    padding-right: 30px;
+  }
+}
