@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "./Page.module.css";
+import withLocalization from "../../../hoc/withLocalization";
 
 const {
   fotoText,
@@ -11,12 +12,12 @@ const {
   infoText,
 } = styled;
 
-const Page = () => (
+const Page = ({localization}) => (
         <div className={bodyStl}>
-          <h1 className={h1Stl}>Резюме - Бранецкий Владлен Владимирович</h1>
+          <h1 className={h1Stl}>{localization.localizedContent.author.resume}</h1>
 
           <div className={fotoText}>
-            <a href="https://t-1000-t-resume.netlify.com/">
+            <a href="https://googmen.site/">
               <img
                 className={imgStl}
                 src="https://i.ibb.co/N3H9bCx/foto.jpg"
@@ -27,114 +28,83 @@ const Page = () => (
             </a>
 
             <p className={infoText}>
-              <span>Образование: Высшее</span> <br />
+              <span>{localization.localizedContent.author.study}</span> <br />
               {/*<span> Дата рождения: 1987.07.18 (33)</span> <br/>*/}
-              <span> Гражданство: Украинец </span> <br />
-              <span> Пол: Мужской</span> <br />
-              <span> Телефон: 063 75 633 75</span> <br />
-              <span> E-mail: goognya@gmail.com</span> <br />
-              <span> Место проживания: г. Киев </span> <br />
+              <span> {localization.localizedContent.author.nationality} </span> <br />
+              <span> {localization.localizedContent.author.gender}</span> <br />
+              <span> {localization.localizedContent.author.mobile}</span> <br />
+              <span> {localization.localizedContent.author.email}</span> <br />
+              <span> {localization.localizedContent.author.city}</span> <br />
             </p>
           </div>
-          <h4 className={h4Stl}>Программист-разработчик</h4>
+          <h4 className={h4Stl}>{localization.localizedContent.author.profession}</h4>
           <p>
             <span>
-              Цель: Получение должности React.js или Node.js разработчика
+              {localization.localizedContent.author.target}
             </span>
             <br />
-            <span> Занятость: Полный день, предпочтительно удаленно</span>
+            <span> {localization.localizedContent.author.busy}</span>
             <br />
-            <span> Готовность к работе удаленно: да</span>
+            <span> {localization.localizedContent.author.remote}</span>
             <br />
-            <span> Готовность к командировкам: нет</span>
+            <span> {localization.localizedContent.author.trip}</span>
             <br />
           </p>
 
-          <h4 className={h4Stl}>Опыт работы по желаемой должности: год.</h4>
+          <h4 className={h4Stl}>{localization.localizedContent.author.experience}</h4>
           <ul>
-            <li>Школа GoIT</li>
-            <li>Front-End / DEVELOPER</li>
-            <li>2019.2 - 2020.4</li>
+            <li>{localization.localizedContent.author.school}</li>
+            <li>{localization.localizedContent.author.specialization}</li>
+            <li>{localization.localizedContent.author.longStudy}</li>
           </ul>
           <p className={blockTools}>
-            <b> Навыки:</b>
+            <b> {localization.localizedContent.author.ability}</b>
             <br />
-            <span> - React, JavaScript</span>
+            <span> - {localization.localizedContent.author.language}</span>
             <br />
-            <span> - API, JSON, MongoDB</span>
+            <span> - {localization.localizedContent.author.ability2}</span>
             <br />
-            <span> - Redux, npm, Webpack, Git</span>
+            <span> - {localization.localizedContent.author.ability3}</span>
             <br />
             <span>
-              - HTML5/CSS, адаптивная или респонсив верстка, позиционирование,
-              формы, FlexBox, Module CSS, Animation CSS
+              - {localization.localizedContent.author.ability4}
             </span>
             <br />
             <span>
-              - разработка интерфейса, подключение плагинов, кроссбраузерность,
-              создание эффектов
+              - {localization.localizedContent.author.ability5}
             </span>
             <br />
             <span>
-              - Photoshop (не углубленные), Верстка макетов с нуля, адаптивных,
-              валидных
+              - {localization.localizedContent.author.ability6}
             </span>
             <br />
-            <span> - Chrome, Firefox - devTools</span>
+            <span> - {localization.localizedContent.author.ability7}</span>
             <br />
             <span>
-              - Английский язык: читаю тех.документацию, воспринимаю на слух, не
-              разговорный (д/в обучаюсь индивидуально с преподавателем
-              английского языка)
+              - {localization.localizedContent.author.ability8})
             </span>
             <br />
           </p>
           <br />
           <br />
-          {/* <p className={blockTools}>
-            <b> Список некоторых работ:</b>
-            <br />
-            <span> - CRAFT HOUSE</span>
-            <br />
-            <span> - Reader</span>
-            <br />
-            <span> - Budget planner</span>
-            <br />
-            <span> - Phonebook</span>
-            <br />
-            <span> - Finder images</span>
-            <br />
-            <span> - Finder movies</span>
-            <br />
-            <span> - Responsive-web</span>
-            <br />
-          </p>
-          <br />
-          <br /> */}
           <hr />
 
-          <h4 className={h4Stl}>Дополнительная информация:</h4>
+          <h4 className={h4Stl}>{localization.localizedContent.author.add_information}</h4>
           <blockquote />
           <span>
-            Диплом: "Одесский национальный политехнический университет" Кафедра
-            "Компьютерных и интелектуальных систем и сетей".
+           {localization.localizedContent.author.diploma}
           </span>
           <br />
           <br />
           <span>
-            Качества: Слышу собеседника, умею задавать вопросы, аргументирую
-            свою точку зрения, имею навыки деловой переписки, свободно общаюсь с
-            людьми разных культур, вижу и понимаю эмоции, вредных привычек не
-            имею, усидчив, постоянно обучаюсь, понимаю что и зачем нужно,
-            ответственный, довожу дело до конца, свои задачи не делегирую на
-            коллег.
+              {localization.localizedContent.author.personal}
           </span>
           <br />
           <br />
-          <span>Спасибо за внимание с Ув. Бранецкий В.В.</span>
+          <span>{localization.localizedContent.author.thanks}</span>
           <br />
           <blockquote />
         </div>
     );
 
-export default Page;
+export default withLocalization(Page);
