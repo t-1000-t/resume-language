@@ -6,6 +6,7 @@ import shortid from 'shortid';
 import withLocalization from '../../hoc/withLocalization';
 import ProfBtnExtends from '../ProfBtnExtends/ProfBtnExtends';
 import styled from './ProfExperience.module.css';
+import {NavLink} from "react-router-dom";
 
 const profExperience = [styled.profExperience];
 const liBody = [styled.liBody];
@@ -92,12 +93,12 @@ const ProfExperience = ({ localization }) => (
       </div>
     ))}
 
-    <div className={printBox}>
-      <a href="/printresume">
-        <div className={printLink}>
+    <div className={printBox} >
+      <NavLink to="/print" className={printLink}>
+
           <Icon icon={printOutline} width="30px" className={print} />
-        </div>
-      </a>
+
+      </NavLink>
     </div>
   </div>
 );

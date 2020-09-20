@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import styled from './Page.module.css';
+import React from "react";
+import styled from "./Page.module.css";
 
 const {
   fotoText,
@@ -11,13 +11,8 @@ const {
   infoText,
 } = styled;
 
-class Page extends Component {
-  state = {};
-
-  render() {
-    return (
-      <div>
-        <body className={bodyStl}>
+const Page = () => (
+        <div className={bodyStl}>
           <h1 className={h1Stl}>Резюме - Бранецкий Владлен Владимирович</h1>
 
           <div className={fotoText}>
@@ -96,7 +91,7 @@ class Page extends Component {
           </p>
           <br />
           <br />
-          <p className={blockTools}>
+          {/* <p className={blockTools}>
             <b> Список некоторых работ:</b>
             <br />
             <span> - CRAFT HOUSE</span>
@@ -115,7 +110,7 @@ class Page extends Component {
             <br />
           </p>
           <br />
-          <br />
+          <br /> */}
           <hr />
 
           <h4 className={h4Stl}>Дополнительная информация:</h4>
@@ -136,16 +131,10 @@ class Page extends Component {
           </span>
           <br />
           <br />
-          <span>Достижения: Самоорганизация и Самомотивация</span>
-          <br />
-          <br />
           <span>Спасибо за внимание с Ув. Бранецкий В.В.</span>
           <br />
           <blockquote />
-        </body>
-      </div>
+        </div>
     );
-  }
-}
 
 export default Page;

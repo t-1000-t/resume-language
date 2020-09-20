@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import ModalPrint from '../../pages/ModalPrint/ModalPrint';
-import ResumeHeader from '../ResumeHeader/ResumeHeader';
-import LocalizationContext from '../../context/localization';
+import React from "react";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import ModalPrint from "../../pages/ModalPrint/ModalPrint";
+import ResumeHeader from "../ResumeHeader/ResumeHeader";
+import LocalizationContext from "../../context/localization";
 
 const App = () => (
   <BrowserRouter>
@@ -10,7 +10,7 @@ const App = () => (
       <article>
         <Switch>
           <Route exact path="/" component={ResumeHeader} />
-          <Route path="/printresume" component={ModalPrint} />
+          <Route path="/print" component={ModalPrint} />
           <Redirect to="/" />
         </Switch>
       </article>
