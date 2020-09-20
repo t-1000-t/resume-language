@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/ProfExperience/ProfExperience.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -179,24 +179,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600617726330</updated>
-      <workItem from="1600617729257" duration="1393000" />
+      <workItem from="1600617729257" duration="2623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1393000" />
+    <option name="totallyTimeSpent" value="2623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1474" y="232" width="1185" height="698" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.5013193" side_tool="true" weight="0.24960381" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.27462947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.27462947" />
       <window_info id="Structure" order="1" sideWeight="0.5013193" side_tool="true" weight="0.24960381" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32920355" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32920355" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -258,7 +257,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/ProfExperience/ProfExperience.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
