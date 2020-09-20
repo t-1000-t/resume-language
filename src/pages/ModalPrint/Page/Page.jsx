@@ -17,7 +17,7 @@ const Page = ({localization}) => (
           <h1 className={h1Stl}>{localization.localizedContent.author.resume}</h1>
 
           <div className={fotoText}>
-            <a href="https://googmen.site/">
+            <a href="https://googman.site/">
               <img
                 className={imgStl}
                 src="https://i.ibb.co/N3H9bCx/foto.jpg"
