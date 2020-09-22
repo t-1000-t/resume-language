@@ -98,11 +98,11 @@
       "id": 6
     }
   ],
-  "notes": [
+  "notes":
     {
       "firm": "School Go-IT",
       "spicial": "Front-End / DEVELOPER",
-      "spenttime": "2019.2 - at this time",
+      "spenttime": "2019.2 - 2020.4",
       "taskexecution1": "- JavaScript, React",
       "taskexecution2": "- DOM, API, JSON",
       "taskexecution3": "- Npm, Gulp, Webpack, Git",
@@ -112,7 +112,10 @@
       "taskexecution7": "- English: at the level of reading documentation, not yet spoken but, constant individual training and lessons with an English teacher",
       "softSkill": "- Soft skills: ",
       "scrum": "Scrum",
-      "moreAbout": "",
+      "moreAbout": "I have:",
+      "realpractical": "Real practical experience in React, JavaScript, Node.js(Express), Redux, Hooks. It can be non-commercial experience, but I have minimal JS coding experience",
+      "studytech": "Desire to work and study of new technologies, approaches and best practices",
+      "fastlearn": "I am a fast learner and result-oriented person",
       "nameSkills": "- List of some works:",
       "proj0": "CRAFT HOUSE",
       "proj1": "Finder movies",
@@ -124,8 +127,7 @@
       "projectNames": "- projects status 'in working':",
       "projWork1": "Site my CV",
       "projWork2": "Online computer shop "
-    }
-  ],
+    },
   "abilities": {
     "ability": "abilities:",
     "profexperiens": "professional experience",

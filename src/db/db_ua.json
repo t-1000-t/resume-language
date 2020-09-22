@@ -99,12 +99,12 @@
       "id": 6
     }
   ],
-  "notes": [
+  "notes":
     {
       "id": "001",
       "firm": "School Go-IT",
       "spicial": "Front-End / DEVELOPER",
-      "spenttime": "2019.2 - д.ч",
+      "spenttime": "2019.2 - 2020.4",
       "taskexecution1": "- JavaScript, React",
       "taskexecution2": "- DOM, API, JSON",
       "taskexecution3": "- Npm, Gulp, Webpack, Git",
@@ -114,7 +114,10 @@
       "taskexecution7": "- Англійська мова: на рівні читання документації, поки ще не розмовна (д/ч індивідуальне навчання з вчителем английскої)",
       "softSkill": "- Софт скіли: ",
       "scrum": "по Scrum",
-      "moreAbout": "",
+      "moreAbout": "Маю:",
+      "realpractical": "Реаль практичний досвід з React, JavaScript, Node.js(Express), Redux, Hooks. Це можливо не комерційний досвід, але я маю точно мінімальній досвід роботи з кодом JS",
+      "studytech": "Бажання працювати та вивчати нові технології, підходи та найкращі практики",
+      "fastlearn": "Швидко навчаюсь та орієнтований на результат",
       "nameSkills": "- Перелік деяких робіт :",
       "proj0": "CRAFT HOUSE",
       "proj1": "Finder movies",
@@ -126,8 +129,7 @@
       "projectNames": "- Проекти у стадії розробки:",
       "projWork1": "Сайт Резюме",
       "projWork2": "Магазин компьютерної техніки"
-    }
-  ],
+    },
   "abilities": {
     "ability": "Вміння:",
     "profexperiens": "професійний досвід",

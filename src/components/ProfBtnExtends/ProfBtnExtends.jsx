@@ -51,6 +51,7 @@ class ProfBtnExtends extends Component {
   }
 
   toggle = (e) => {
+    console.log(e.target);
     const { abilities } = this.props.localization.localizedContent;
     this.setState((prevState) => ({
       isOpen: !prevState.isOpen,
@@ -82,7 +83,6 @@ class ProfBtnExtends extends Component {
     const {
       softSkill,
       scrum,
-      moreAbout,
       nameSkills,
       proj0,
       proj1,
@@ -116,9 +116,6 @@ class ProfBtnExtends extends Component {
             </p>
             <p>
               <b>{nameSkills}</b>
-            </p>
-            <p>
-              <b>{moreAbout}</b>
             </p>
             <ul key={shortid.generate()} className={btnToggleText}>
               <a href="https://c-h.site">

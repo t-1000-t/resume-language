@@ -38,8 +38,8 @@
 .btnMoreLoc {
   display: flex;
   justify-content: flex-end;
-  padding-right: 30px;
-  padding-bottom: 28px;
+  /*padding-right: 30px;*/
+  /*padding-bottom: 28px;*/
 }
 
 .btnMoreLoc:hover {

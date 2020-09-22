@@ -99,12 +99,12 @@
       "id": 6
     }
   ],
-  "notes": [
+  "notes":
     {
       "id": "001",
       "firm": "School Go-IT",
       "spicial": "Front-End / DEVELOPER",
-      "spenttime": "2019.2 - д.в",
+      "spenttime": "2019.2 - 2020.4",
       "taskexecution1": "- React, JavaScript",
       "taskexecution2": "- API, JSON, MongoDB",
       "taskexecution3": "- Redux, npm, Webpack, Git",
@@ -114,7 +114,10 @@
       "taskexecution7": "- Английский язык: на уровне чтения документации, пока еще не разговорный (д/в индивидуальное обучение с преподавателем английского языка)",
       "softSkill": "- Софт скилы: ",
       "scrum": "по Scrum",
-      "moreAbout": "",
+      "moreAbout": "Имею:",
+      "realpractical": "Реальный практический опыт с React, JavaScript, Node.js(Express), Redux, Hooks. Это может быть не комерческий опыт, но у меня есть точно минимальный опыт работы с кодом JS",
+      "studytech": "Желание работать и изучать новые технологии, подходы и лучшие практики",
+      "fastlearn": "Быстро учусь и ориентирован на результат",
       "nameSkills": "- Список некоторых работ:",
       "proj0": "CRAFT HOUSE",
       "proj1": "Finder movies",
@@ -126,8 +129,7 @@
       "projectNames": "- Рабочие проекты:",
       "projWork1": "Сайт Резюме",
       "projWork2": "Интернет магазин техники"
-    }
-  ],
+    },
   "abilities": {
     "ability": "Умения:",
     "profexperiens": "профессиональный опыт",
