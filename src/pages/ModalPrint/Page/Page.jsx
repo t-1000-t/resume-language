@@ -91,15 +91,15 @@ const Page = ({localization}) => (
             <b> {localization.localizedContent.notes.moreAbout}</b>
             <br/>
             <span>
-              - {localization.localizedContent.notes.realpractical}
+              {localization.localizedContent.notes.realpractical}
             </span>
             <br/>
             <span>
-              - {localization.localizedContent.notes.studytech}
+              {localization.localizedContent.notes.studytech}
             </span>
             <br/>
             <span>
-              - {localization.localizedContent.notes.fastlearn}
+              {localization.localizedContent.notes.fastlearn}
             </span>
             <br/>
 

@@ -102,7 +102,6 @@ const ProfExperience = ({localization}) => (
                     fastlearn={localization.localizedContent.notes.fastlearn}
                 />
             </div>
-        )}
 
         <div className={printBox}>
             <NavLink to="/print">
