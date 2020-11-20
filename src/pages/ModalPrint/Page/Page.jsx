@@ -20,7 +20,8 @@ const Page = ({localization}) => (
             <a href="https://googman.site/">
                 <img
                     className={imgStl}
-                    src="https://i.ibb.co/N3H9bCx/foto.jpg"
+                    src={localization.localizedContent.author.fo_to_cv}
+                    // src="./fotocv.jpg"
                     width="300"
                     alt="Foto"
                     border="0"
