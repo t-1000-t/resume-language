@@ -21,7 +21,7 @@ const section = [styled.section];
 class ResumeHeader extends Component {
   state = {
     isModalOpen: false,
-    isMatherland: false,
+    isMatherLand: false
   };
 
   componentDidMount() {
@@ -29,9 +29,9 @@ class ResumeHeader extends Component {
   }
 
   toggleSvg = () => {
-    const { isMatherland } = this.state;
+    const { isMatherLand } = this.state;
     this.setState({
-      isMatherland: !isMatherland,
+      isMatherLand: !isMatherLand
     });
   };
 
@@ -45,13 +45,13 @@ class ResumeHeader extends Component {
       locales,
       changeLocale,
       currentLocale,
-      localizedContent,
+      localizedContent
     } = this.props.localization;
     const { author } = localizedContent;
     return (
       <div>
         <section className={styled.selectorRH}>
-          {locales.map((locale) => (
+          {locales.map(locale => (
             <button
               key={locale}
               onClick={() => changeLocale(locale)}
@@ -82,7 +82,7 @@ class ResumeHeader extends Component {
               to={{ opacity: 1 }}
               config={{ delay: 0, duration: 6000 }}
             >
-              {(props) => (
+              {props => (
                 <div>
                   <img
                     style={props}

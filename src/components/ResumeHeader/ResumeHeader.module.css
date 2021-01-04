@@ -7,11 +7,11 @@
 
 h2,
 h3,
-h4,
-a {
+h4 {
   color: white;
-  font-family: 'BenchNine', sans-serif;
+  font-family: "BenchNine", sans-serif;
 }
+
 h2 {
   font-size: 48px;
 
@@ -29,9 +29,6 @@ h4 {
   left: 12px;
   margin: 0;
   font-size: 18px;
-}
-a {
-  font-size: 24px;
 }
 
 .relative {
