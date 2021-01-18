@@ -33,8 +33,7 @@
     "ability8": "English: I read technical documentation, understand by ear, do not\n              spoken (at the time, I study individually with a teacher\n              of English language)",
     "add_information": "Additional Information:",
     "diploma": "Diploma: \"Odessa National Polytechnic University\" Department\n            \"Computer and intelligent systems and networks\".",
-    "personal": "Qualities: I hear the interlocutor, I can ask questions, I argue\n            my point of view, I have business correspondence skills, I communicate freely with\n            people of different cultures, I see and understand emotions, I don't have bad habits,\n             diligent, constantly studying, I understand what is needed and why,\n            responsible, I bring the matter to the end, I do not delegate my tasks to\n            colleagues.",
-    "thanks": "Thanks for your attention with respect, Branetsky V.V."
+    "personal": "Qualities: I hear the interlocutor, I can ask questions, I argue\n            my point of view, I have business correspondence skills, I communicate freely with\n            people of different cultures, I see and understand emotions, I don't have bad habits,\n             diligent, constantly studying, I understand what is needed and why,\n            responsible, I bring the matter to the end, I do not delegate my tasks to\n            colleagues."
   },
   "tools": [
     {
@@ -114,7 +113,7 @@
     "softSkill": "- Soft skills: ",
     "scrum": "Scrum",
     "moreAbout": "I have:",
-    "realpractical": "- Real practical experience in React, JavaScript, Node.js(Express), Redux, Hooks. It can be non-commercial experience, but I have experience with Javascript programming",
+    "realpractical": "- Real practical experience in React, JavaScript, Node.js(Express), Redux, Hooks.",
     "studytech": "- Desire to work and study of new technologies, approaches and best practices",
     "fastlearn": "- Fast learner and result-oriented person",
     "nameSkills": "- List of some works:",
