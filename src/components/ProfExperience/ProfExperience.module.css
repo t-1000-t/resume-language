@@ -18,6 +18,14 @@
   padding-left: 40px;
 }
 
+.ulBody > li:last-child {
+  display: flex
+}
+.ulBody > li > div:last-child {
+  padding-left: 5px;
+  color: red;
+}
+
 .liBody {
   list-style-type: none;
   padding: 4px;

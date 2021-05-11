@@ -3,7 +3,7 @@ import styled from "./Page.module.css";
 import withLocalization from "../../../hoc/withLocalization";
 
 const {
-  fotoText,
+  photoText,
   bodyStl,
   imgStl,
   h1Stl,
@@ -16,14 +16,14 @@ const Page = ({ localization }) => (
   <div className={bodyStl}>
     <h1 className={h1Stl}>{localization.localizedContent.author.resume}</h1>
 
-    <div className={fotoText}>
+    <div className={photoText}>
       <a href="https://googman.site/">
         <img
           className={imgStl}
           src={localization.localizedContent.author.fo_to_cv}
-          // src="./fotocv.jpg"
+          // src="./photoCv.jpg"
           width="300"
-          alt="Foto"
+          alt="photoImg"
           border="0"
         />
       </a>

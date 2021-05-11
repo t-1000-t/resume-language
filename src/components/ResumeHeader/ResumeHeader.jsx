@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Icon from "@iconify/react";
 import locationSharp from "@iconify/icons-ion/location-sharp";
-import { Spring } from "react-spring/renderprops";
+import { Spring } from "react-spring";
 
 import withLocalization from "../../hoc/withLocalization";
 import ModalMap from "../ModalMap/ModalMap";
@@ -41,12 +41,8 @@ class ResumeHeader extends Component {
 
   render() {
     const { isModalOpen } = this.state;
-    const {
-      locales,
-      changeLocale,
-      currentLocale,
-      localizedContent
-    } = this.props.localization;
+    const { locales, changeLocale, currentLocale, localizedContent } =
+      this.props.localization;
     const { author } = localizedContent;
     return (
       <div>
