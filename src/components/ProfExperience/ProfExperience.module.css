@@ -14,25 +14,43 @@
 }
 
 .ulBody {
-  padding: 10px;
+  padding-top: 15px;
   padding-left: 40px;
 }
 
 .ulBody > li:last-child {
-  display: flex
+  display: flex;
+}
+.ulBody > li > i {
+  padding-right: 5px;
 }
 .ulBody > li > div:last-child {
   padding-left: 5px;
   color: red;
 }
 
+.wrapperListProd {
+  padding: 0rem, 1.5rem, 1.5rem, 1.5rem;
+}
+
+.divListProd {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
 .liBody {
   list-style-type: none;
   padding: 4px;
 }
-
+.liBodyTitle {
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  margin-left: 0;
+  color: #121213;
+}
 .divBody::after {
-  content: '';
+  content: "";
   background-color: #323837;
   height: 1px;
   width: 95%;
@@ -63,7 +81,7 @@
   color: #95e1d3;
 }
 .print_link::after {
-  content: '';
+  content: "";
   display: block;
   height: 6px;
   width: 0;

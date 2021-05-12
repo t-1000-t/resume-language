@@ -16,6 +16,9 @@ const divB = [styled.divB];
 const printLink = [styled.print_link];
 const print = [styled.print];
 const printBox = [styled.printBox];
+const divListProd = [styled.divListProd];
+const wrapperListProd = [styled.wrapperListProd];
+const liBodyTitle = [styled.liBodyTitle];
 
 const ProfExperience = ({ localization }) => {
   const { profExperience } = localization.localizedContent.abilities;
@@ -39,13 +42,8 @@ const ProfExperience = ({ localization }) => {
     taskExecution13,
     moreAbout,
     projects,
-    projectSiteName,
-    tasks,
-    technologies,
-    responsibilities,
     nameSkills,
     softSkill,
-    progress,
     scrum,
     proj0,
     proj1,
@@ -61,8 +59,11 @@ const ProfExperience = ({ localization }) => {
     proj11,
     projectNames,
     projWork1,
-    projWork2
+    projWork2,
+    myPracticalSite
   } = localization.localizedContent.notes;
+  const { items } = localization.localizedContent;
+  const { myProjNoComm } = localization.localizedContent;
   return (
     <div>
       <h4 className={profExperienceH4}>{profExperience}</h4>
@@ -97,23 +98,74 @@ const ProfExperience = ({ localization }) => {
             <li className={liBody}>{taskExecution11}</li>
             <li className={liBody}>{taskExecution12}</li>
             <li className={liBody}>{taskExecution13}</li>
-            <li className={liBody}>
-              <b>{moreAbout}</b>
-            </li>
-            <li className={liBody}>
-              <i>{projects}</i>
-            </li>
-            <li className={liBody}>
-              <b>{projectSiteName}</b>
-              <a href="https://intshop.store"> intshop.store</a>
-            </li>
-            <li className={liBody}>{tasks}</li>
-            <li className={liBody}>{technologies}</li>
-            <li className={liBody}>
-              <div>{responsibilities}</div>
-              <div>{progress}</div>
+            <li>
+              <p className={liBodyTitle}>{moreAbout}</p>
             </li>
           </ul>
+          <div className={wrapperListProd}>
+            <div className={divListProd}>
+              <i>{projects}</i>
+            </div>
+            {items &&
+              items.map(el => (
+                <ul className={ulBody}>
+                  <li className={liBody}>
+                    <b>{el.projectSiteName} </b>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={el.linkInProject}
+                    >
+                      {el.linkName}
+                    </a>
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.taskName}</i>
+                    {`${el.tasks}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.technologiesName}</i>
+                    {`${el.technologies}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.responsibilitiesName}</i>
+                    {`${el.responsibilities}`}
+                    {el.progress && <div>{el.progress}</div>}
+                  </li>
+                </ul>
+              ))}
+            <div className={divListProd}>
+              <i>{myPracticalSite}</i>
+            </div>
+            {myProjNoComm &&
+              myProjNoComm.map(el => (
+                <ul className={ulBody}>
+                  <li className={liBody}>
+                    <b>{el.projectSiteName} </b>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={el.linkInProject}
+                    >
+                      {el.linkName}
+                    </a>
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.taskName}</i>
+                    {`${el.tasks}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.technologiesName}</i>
+                    {`${el.technologies}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.responsibilitiesName}</i>
+                    {`${el.responsibilities}`}
+                    {el.progress && <div>{el.progress}</div>}
+                  </li>
+                </ul>
+              ))}
+          </div>
         </div>
         <ProfBtnExtends
           moreAbout={moreAbout}

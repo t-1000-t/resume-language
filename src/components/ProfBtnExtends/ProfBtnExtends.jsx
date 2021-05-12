@@ -28,11 +28,11 @@ class ProfBtnExtends extends Component {
     proj6: T.string.isRequired,
     projectNames: T.string.isRequired,
     projWork1: T.string.isRequired,
-    projWork2: T.string.isRequired,
+    projWork2: T.string.isRequired
   };
 
   state = {
-    isOpen: false,
+    isOpen: false
   };
 
   componentDidMount() {
@@ -50,11 +50,11 @@ class ProfBtnExtends extends Component {
     }
   }
 
-  toggle = (e) => {
+  toggle = e => {
     console.log(e.target);
     const { abilities } = this.props.localization.localizedContent;
-    this.setState((prevState) => ({
-      isOpen: !prevState.isOpen,
+    this.setState(prevState => ({
+      isOpen: !prevState.isOpen
     }));
 
     if (
@@ -62,19 +62,19 @@ class ProfBtnExtends extends Component {
       e.currentTarget.innerText === "Expand" ||
       e.currentTarget.innerText === "Розгонути"
     ) {
-      toast(`${abilities.moreinfo}`, {
+      toast(`${abilities.moreInfo}`, {
         position: toast.POSITION.TOP_CENTER,
         className: css({
           background: "rgb(172, 236, 217)",
-          color: "rgb(117, 117, 117)",
+          color: "rgb(117, 117, 117)"
         }),
         bodyClassName: css({
-          fontSize: "16px",
+          fontSize: "16px"
         }),
         progressClassName: css({
           background:
-            "repeating-radial-gradient(circle at right, #b3c066 0, #40baf3, #2378a0 100%)",
-        }),
+            "repeating-radial-gradient(circle at right, #b3c066 0, #40baf3, #2378a0 100%)"
+        })
       });
     }
   };
@@ -93,7 +93,7 @@ class ProfBtnExtends extends Component {
       proj6,
       projectNames,
       projWork1,
-      projWork2,
+      projWork2
     } = this.props;
     const { abilities } = this.props.localization.localizedContent;
     const { isOpen } = this.state;

@@ -113,12 +113,8 @@
     "softSkill": "- Soft skills: ",
     "scrum": "Scrum",
     "moreAbout": "Experience",
+    "myPracticalSite": "My practical site:",
     "projects": "Projects:",
-    "projectSiteName": "Integral-shop:",
-    "tasks": "Task: Create shop from scratch.",
-    "technologies": "Technologies: Node.js (Express), Bootstrap, Redux, Hooks, MongoDB, Netlify, Heroku.",
-    "responsibilities": "Responsibilities: Develop store structure, design, accessibility, responsive, routing, sorting, product filter, global search, feedback form.",
-    "progress": "(Project in progress)",
     "nameSkills": "- List of some works:",
     "proj0": "CRAFT HOUSE",
     "proj1": "Finder movies",
@@ -136,6 +132,82 @@
     "profExperience": "professional experience",
     "collapse": "Collapse",
     "expand": "Expand",
-    "moreinfo": "↓ Opened more information ↓"
-  }
+    "moreInfo": "↓ Opened more information ↓"
+  },
+  "items": [
+    {
+      "projectSiteName": "Integral-shop:",
+      "linkName": "intshop.store",
+      "linkInProject": "https://intshop.store",
+      "taskName": "Task:",
+      "tasks": "Create shop from scratch.",
+      "technologiesName": "Technologies:",
+      "technologies": "Node.js (Express), Bootstrap, Redux, Hooks, MongoDB, Netlify, Heroku.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Develop store structure, design, accessibility, responsive, routing, sorting, product filter, global search, feedback form.",
+      "progress": "(Project in progress)"
+    },
+    {
+      "projectSiteName": "Craft-House:",
+      "linkName": "c-h.site ",
+      "linkInProject": "https://c-h.site ",
+      "taskName": "Task:",
+      "tasks": "SPA (Lending)",
+      "technologiesName": "Technologies:",
+      "technologies": "React, Module CSS, MongoDB, Netlify.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Design, Modal window for filling and save form in database.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "School GoIT:",
+      "linkName": "questify.goit.co.ua",
+      "linkInProject": "https://questify.goit.co.ua",
+      "taskName": "Task:",
+      "tasks": "Card creation, filling, modification, deletion.",
+      "technologiesName": "Technologies:",
+      "technologies": "React, Module CSS, GitHub, Material-UI.",
+      "responsibilitiesName": "Responsibilities in School GoIT:",
+      "responsibilities": "Create a Stuff cell in the card by clicking on which several options will appear to change the status. Styling GroupSelect component.",
+      "progress": ""
+    }
+  ],
+  "myProjNoComm": [
+    {
+      "projectSiteName": "Search movies:",
+      "linkName": "search-movies.rank",
+      "linkInProject": "https://t1001t-goit-react-hw-04-movies.netlify.app",
+      "taskName": "Task:",
+      "tasks": "Site movie, navigation bar for page, search movie, page details for movie, button “Go to back” previous page.",
+      "technologiesName": "Technologies:",
+      "technologies": "React JS, Module CSS, Netlify CLI, API the movie db.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Create pages for site, navigation bar, search movie, page details, button push local storage, React Routing.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Search photo:",
+      "linkName": "finder-image.search",
+      "linkInProject": "https://finder-images-on-react.netlify.app",
+      "taskName": "Task:",
+      "tasks": "Site finder images, create card, modal page.",
+      "technologiesName": "Technologies:",
+      "technologies": "React JS, Module CSS, Netlify CLI, API Pixabay.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Page, Rendering Card, Modal page.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Curriculum vitae:",
+      "linkName": "googman.site",
+      "linkInProject": "https://googman.site",
+      "taskName": "Task:",
+      "tasks": "Site Curriculum vitae, components abilities, modal info, modal map, flexibility page, navigation languages, json, Print page.",
+      "technologiesName": "Technologies:",
+      "technologies": "React JS, Module CSS, Netlify CLI, JSON, Iconify, Toastify, React Animation, HOC.",
+      "responsibilitiesName": "Responsibilities in School GoIT:",
+      "responsibilities": "React Routing, Modals page, Navigation, Animation, Responsive, Design, Print page.",
+      "progress": ""
+    }
+  ]
 }
