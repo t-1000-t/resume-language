@@ -111,7 +111,7 @@
     "taskExecution6": "- Technologies: Bootstrap, es6, mongoose, jest, Hooks-React, Node.js (Express), Redux, FlexBox, CSS Module, React, PhotoShop, DevTools, API, JSON, Material-UI, Ant-Design.",
     "taskExecution7": "",
     "softSkill": "- Soft skills: ",
-    "scrum": "Scrum",
+    "nameSoftSkill": "Scrum",
     "moreAbout": "Experience",
     "myPracticalSite": "My practical site:",
     "projects": "Projects:",
@@ -122,10 +122,7 @@
     "proj3": "Finder images",
     "proj4": "PhoneBook",
     "proj5": "Budget planner",
-    "proj6": "Reader",
-    "projectNames": "- projects status 'in working':",
-    "projWork1": "Site my CV",
-    "projWork2": "Online computer shop "
+    "proj6": "Reader"
   },
   "abilities": {
     "ability": "abilities:",
@@ -205,8 +202,80 @@
       "tasks": "Site Curriculum vitae, components abilities, modal info, modal map, flexibility page, navigation languages, json, Print page.",
       "technologiesName": "Technologies:",
       "technologies": "React JS, Module CSS, Netlify CLI, JSON, Iconify, Toastify, React Animation, HOC.",
-      "responsibilitiesName": "Responsibilities in School GoIT:",
+      "responsibilitiesName": "Responsibilities:",
       "responsibilities": "React Routing, Modals page, Navigation, Animation, Responsive, Design, Print page.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Rank biathlon table:",
+      "linkName": "react-table-biathlon",
+      "linkInProject": "https://codesandbox.io/s/react-table-biathlon-m81ls",
+      "taskName": "Task:",
+      "tasks": "Site Table biathlon, Component Table, Custom API, Filter column, Pagination page.",
+      "technologiesName": "Technologies:",
+      "technologies": "React JS, CSS, JSON, Heroku, Netlify CLI.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Components, custom api, filter column, pagination.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Calculator budget:",
+      "linkName": "budget-planning",
+      "linkInProject": "https://codesandbox.io/s/budget-planning-9ste0",
+      "taskName": "Task:",
+      "tasks": "Site calculator budget, Components, Redux store.",
+      "technologiesName": "Technologies:",
+      "technologies": "React, Redux, Styled-components.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Calculator budget, components, redux store, design.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Currency rate calculator:",
+      "linkName": "calculator-privat-bank",
+      "linkInProject": "https://codesandbox.io/s/calculator-uah-privat-bank-d7yj9",
+      "taskName": "Task:",
+      "tasks": "Site calculator rate, Dropdown, Design.",
+      "technologiesName": "Technologies:",
+      "technologies": "Webpack, CSS, GitHub, Private Bank API.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Calculator rate, dropdown, design.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Reader:",
+      "linkName": "react-reader",
+      "linkInProject": "https://t-1000-t.github.io/goit-react-hw-02-reader",
+      "taskName": "Task:",
+      "tasks": "Site Reader, Page pagination.",
+      "technologiesName": "Technologies:",
+      "technologies": "React, Module CSS, GitHub, json.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Component reader, pagination.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "Responsive-web:",
+      "linkName": "responsive-web",
+      "linkInProject": "  https://t-1000-t.github.io/Responsive-web",
+      "taskName": "Task:",
+      "tasks": "Web page markup.",
+      "technologiesName": "Technologies:",
+      "technologies": "HTML, CSS, Fonts, GitHub.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Adaptive web design.",
+      "progress": ""
+    },
+    {
+      "projectSiteName": "MoGo:",
+      "linkName": "gulp-sass-mogo",
+      "linkInProject": "https://t-1000-t-gulp-sass-mogo.netlify.app",
+      "taskName": "Task:",
+      "tasks": "Web page markup.",
+      "technologiesName": "Technologies:",
+      "technologies": " HTML, CSS, Fonts, Netlify CLI.",
+      "responsibilitiesName": "Responsibilities:",
+      "responsibilities": "Adaptive web design.",
       "progress": ""
     }
   ]

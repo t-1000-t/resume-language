@@ -3,15 +3,16 @@ import { ToastContainer, toast, Zoom } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { css } from "glamor";
 import T from "prop-types";
-import shortid from "shortid";
+// import shortid from "shortid";
 import withLocalization from "../../hoc/withLocalization";
 import styled from "./ProfBtnExtends.module.css";
 
 const btn = [styled.btn];
 const btnMoreLoc = [styled.btnMoreLoc];
-const btnToggleText = [styled.btnToggleText];
-const textLinkTog = [styled.textLinkTog];
-const scrumText = [styled.scrumText];
+const divListProd = [styled.divListProd];
+const wrapperListProd = [styled.wrapperListProd];
+const liBody = [styled.liBody];
+const ulBody = [styled.ulBody];
 
 class ProfBtnExtends extends Component {
   static propTypes = {
@@ -80,22 +81,12 @@ class ProfBtnExtends extends Component {
   };
 
   render() {
-    const {
-      softSkill,
-      scrum,
-      nameSkills,
-      proj0,
-      proj1,
-      proj2,
-      proj3,
-      proj4,
-      proj5,
-      proj6,
-      projectNames,
-      projWork1,
-      projWork2
-    } = this.props;
+    // const {} = this.props;
     const { abilities } = this.props.localization.localizedContent;
+    const { items } = this.props.localization.localizedContent;
+    const { myProjNoComm } = this.props.localization.localizedContent;
+    const { projects, myPracticalSite } =
+      this.props.localization.localizedContent.notes;
     const { isOpen } = this.state;
 
     return (
@@ -107,51 +98,70 @@ class ProfBtnExtends extends Component {
         </div>
         <ToastContainer autoClose={2500} transition={Zoom} />
         {isOpen && (
-          <>
-            <p>
-              <b>
-                {softSkill}
-                <span className={scrumText}>{scrum}</span>
-              </b>
-            </p>
-            <p>
-              <b>{nameSkills}</b>
-            </p>
-            <ul key={shortid.generate()} className={btnToggleText}>
-              <a href="https://c-h.site">
-                <li className={textLinkTog}>{proj0}</li>
-              </a>
-              <a href="https://reader-sheets-on-react.netlify.app">
-                <li className={textLinkTog}>{proj6}</li>
-              </a>
-              <a href="https://budget-planner-on-react.netlify.app/">
-                <li className={textLinkTog}>{proj5}</li>
-              </a>
-              <a href="https://t-1000-t-goit-react-hw-06-phonebook.netlify.app/">
-                <li className={textLinkTog}>{proj4}</li>
-              </a>
-              <a href="https://finder-images-on-react.netlify.app">
-                <li className={textLinkTog}>{proj3}</li>
-              </a>
-              <a href="https://t1001t-goit-react-hw-04-movies.netlify.app">
-                <li className={textLinkTog}>{proj1}</li>
-              </a>
-              <a href="https://t-1000-t.github.io/Responsive-web/">
-                <li className={textLinkTog}>{proj2}</li>
-              </a>
-              <a href="https://googman.site">
-                <li className={textLinkTog}>{projWork1}</li>
-              </a>
-            </ul>
-            <p>
-              <b>{projectNames}</b>
-            </p>
-            <ul key={shortid.generate()} className={btnToggleText}>
-              <a href="https://integral-bootstrap-redux.netlify.app">
-                <li className={textLinkTog}>{projWork2}</li>
-              </a>
-            </ul>
-          </>
+          <div className={wrapperListProd}>
+            <div className={divListProd}>
+              <i>{projects}</i>
+            </div>
+            {items &&
+              items.map(el => (
+                <ul className={ulBody}>
+                  <li className={liBody}>
+                    <b>{el.projectSiteName} </b>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={el.linkInProject}
+                    >
+                      {el.linkName}
+                    </a>
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.taskName}</i>
+                    {`${el.tasks}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.technologiesName}</i>
+                    {`${el.technologies}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.responsibilitiesName}</i>
+                    {`${el.responsibilities}`}
+                    {el.progress && <div>{el.progress}</div>}
+                  </li>
+                </ul>
+              ))}
+            <div className={divListProd}>
+              <i>{myPracticalSite}</i>
+            </div>
+            {myProjNoComm &&
+              myProjNoComm.map(el => (
+                <ul className={ulBody}>
+                  <li className={liBody}>
+                    <b>{el.projectSiteName} </b>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={el.linkInProject}
+                    >
+                      {el.linkName}
+                    </a>
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.taskName}</i>
+                    {`${el.tasks}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.technologiesName}</i>
+                    {`${el.technologies}`}
+                  </li>
+                  <li className={liBody}>
+                    <i>{el.responsibilitiesName}</i>
+                    {`${el.responsibilities}`}
+                    {el.progress && <div>{el.progress}</div>}
+                  </li>
+                </ul>
+              ))}
+          </div>
         )}
       </div>
     );
