@@ -1,9 +1,9 @@
 {
   "author": {
     "fo_to_cv": "https://i.ibb.co/N3H9bCx/foto.jpg",
-    "firstname": "Vladlen",
-    "lastname": "Branetskiy",
-    "specialisation": "React.js / Node.js (Express)",
+    "firstName": "Vladlen",
+    "lastName": "Branetskiy",
+    "specializationTop": "React.js / Node.js (Express)",
     "city": "Ukraine, Kiev",
     "study": "Higher education",
     "nationality": "Citizenship: Ukrainian",
@@ -70,6 +70,7 @@
       "id": 3
     },
     {
+      "btnClose": "Close",
       "name": "Git",
       "title": "Git - Основы",
       "str0": "- Installation, initial setup Git",
@@ -114,15 +115,7 @@
     "nameSoftSkill": "Scrum",
     "moreAbout": "Experience",
     "myPracticalSite": "My practical site:",
-    "projects": "Projects:",
-    "nameSkills": "- List of some works:",
-    "proj0": "CRAFT HOUSE",
-    "proj1": "Finder movies",
-    "proj2": "Responsive-web",
-    "proj3": "Finder images",
-    "proj4": "PhoneBook",
-    "proj5": "Budget planner",
-    "proj6": "Reader"
+    "projects": "Projects:"
   },
   "abilities": {
     "ability": "abilities:",

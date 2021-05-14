@@ -31,7 +31,7 @@ class ResumeHeader extends Component {
   toggleSvg = () => {
     const { isMatherLand } = this.state;
     this.setState({
-      isMatherLand: !isMatherLand
+      isMatherLand: !isMatherLand 
     });
   };
 
@@ -61,10 +61,10 @@ class ResumeHeader extends Component {
         </section>
         <div className={`${resumeHeader} ${relative}`}>
           <h2>
-            <span>{author.firstname} </span>
-            {author.lastname}
+            <span>{author.firstName} </span>
+            {author.lastName}
           </h2>
-          <h3>{author.specialisation}</h3>
+          <h3>{author.specializationTop}</h3>
           <div className={localIcon}>
             <h4>{author.city}</h4>
             <Icon

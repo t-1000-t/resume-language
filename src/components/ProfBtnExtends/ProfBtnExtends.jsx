@@ -10,6 +10,7 @@ import styled from "./ProfBtnExtends.module.css";
 const btn = [styled.btn];
 const btnMoreLoc = [styled.btnMoreLoc];
 const divListProd = [styled.divListProd];
+const divListProd2 = [styled.divListProd2];
 const wrapperListProd = [styled.wrapperListProd];
 const liBody = [styled.liBody];
 const ulBody = [styled.ulBody];
@@ -130,7 +131,7 @@ class ProfBtnExtends extends Component {
                   </li>
                 </ul>
               ))}
-            <div className={divListProd}>
+            <div className={divListProd2}>
               <i>{myPracticalSite}</i>
             </div>
             {myProjNoComm &&
