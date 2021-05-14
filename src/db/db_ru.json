@@ -115,7 +115,7 @@
     "nameSoftSkill": "Scrum",
     "moreAbout": "Опыт",
     "myPracticalSite": "Мои практические работы:",
-    "projects": "Проэкты:"
+    "projects": "Проекты:"
   },
   "abilities": {
     "ability": "Умения:",
@@ -135,7 +135,7 @@
       "technologies": "Node.js (Express), Bootstrap, Redux, Hooks, MongoDB, Netlify, Heroku.",
       "responsibilitiesName": "Ответственность:",
       "responsibilities": "Develop store structure, design, accessibility, responsive, routing, sorting, product filter, global search, feedback form.",
-      "progress": "(Проэкт в процессе разработки)"
+      "progress": "(Проект в процессе разработки)"
     },
     {
       "projectSiteName": "Craft-House:",
@@ -192,7 +192,7 @@
       "linkName": "googman.site",
       "linkInProject": "https://googman.site",
       "taskName": "Задача:",
-      "tasks": "Сайт резюме, компоненты способностей, попар окно, содельное окной карты, отзывчивость станиц, навигация по языкам, API, принт страница.",
+      "tasks": "Сайт резюме, компоненты контента, попап инфо окно, модальное окно карты, отзывчивость станиц, навигация по языкам, API, принт страница.",
       "technologiesName": "Технологии:",
       "technologies": "React JS, Module CSS, Netlify CLI, JSON, Iconify, Toastify, React Animation, HOC.",
       "responsibilitiesName": "Ответственность:",
@@ -216,7 +216,7 @@
       "linkName": "budget-planning",
       "linkInProject": "https://codesandbox.io/s/budget-planning-9ste0",
       "taskName": "Задача:",
-      "tasks": "Сайт калькулятор плнирования бюджета, компоненты, Redux хранилище.",
+      "tasks": "Сайт калькулятор планирования бюджета, компоненты, Redux хранилище.",
       "technologiesName": "Технологии:",
       "technologies": "React, Redux, Styled-components.",
       "responsibilitiesName": "Ответственность:",
