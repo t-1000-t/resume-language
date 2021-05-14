@@ -119,7 +119,7 @@
   },
   "abilities": {
     "ability": "Вміння:",
-    "profexperiens": "Професійний досвід",
+    "profExperience": "Професійний досвід",
     "collapse": "Згорнути",
     "expand": "Розгонути",
     "moreinfo": "↓ Відкрито більше інформації ↓ "
